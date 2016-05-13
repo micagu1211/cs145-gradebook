@@ -10,16 +10,6 @@ class Student {
 		return name;
 	}
 
-	/*static double[] grades(){
-		double[] randGrades= new double[10];
-		for(int i=0; i<randGrades.length; i++){
-			randGrades[i]=(Math.random()*100)+1;
-			System.out.print(randGrades[i]+"\n");
-		}
-		return randGrades;
-	}*/
-
-
 	static double high(double[] grades) {
         double high=grades[0];
         for(int i=0; i<grades.length; i++){
@@ -31,7 +21,6 @@ class Student {
       	return high;
 
        }
-		//System.out.println("YOUR HIGHEST GRADE: " + high + "\n");
 
 	static double low(double[] grades){ 
 		double low=grades[0];
@@ -42,8 +31,7 @@ class Student {
         }
         return low;
        }
-		//System.out.println("YOUR LOWEST GRADE: " + low + "\n");
-
+       
 	static double average(double[] grades){
 		double sum=0;
 
